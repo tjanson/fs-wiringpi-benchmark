@@ -1,0 +1,15 @@
+{
+  "name": "fs-wiringpi-benchmark",
+  "version": "1.0.0",
+  "description": "Compares Raspberry Pi GPIO read/write speed",
+  "main": "benchmark.js",
+  "scripts": {
+    "start": "node benchmark.js"
+  },
+  "author": "Tom Janson",
+  "license": "ISC",
+  "dependencies": {
+    "benchmark": "^1.0.0",
+    "wiring-pi": "eugeneware/wiring-pi"
+  }
+}
