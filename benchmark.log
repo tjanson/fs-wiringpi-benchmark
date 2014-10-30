@@ -1,0 +1,8 @@
+
+> fs-wiringpi-benchmark@1.0.0 start /home/pi/fs-wiringpi-benchmark
+> node benchmark.js
+
+Read [FS] x 192 ops/sec ±3.19% (77 runs sampled)
+Read [WPi] x 302 ops/sec ±6.72% (75 runs sampled)
+Write 1/0 alternating [FS] x 240 ops/sec ±2.41% (74 runs sampled)
+Write 1/0 alternating [WPi] x 315 ops/sec ±1.63% (77 runs sampled)
