@@ -2,6 +2,7 @@ fs-wiringpi-benchmark
 =====================
 
 Quick benchmark for Raspberry Pi GPIO read/write. Compares filesystem writes to eugeneware/wiring-pi native bindings. 
+
 Validity is questionable, because benchmarking is tricky. I’m particularly sceptical because I’m using wiring-pi for sending 433MHz datagrams that have a base length of 330 *micro*seconds – and it’s doing fine. The benchmark implies the average write takes 3 *milli*seconds.
 
 Maybe we’re dealing with timeframes that are too short for Benchmark.js to measure accurately?
